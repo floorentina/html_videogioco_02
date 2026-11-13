@@ -8,19 +8,19 @@ Se volessi raggruppare titolo, immagine e descrizione in un unico contenitore, q
 utilizzeresti? Perché?
 Utilizzerei il tag block generico <div>. Perchè mi permette di raggruppare contenuti e applicare stili CSS.
 
-A cosa serve <thead>,<tbody> e <tfoot> all interno di unsa tabella?
+A cosa serve -thead-,-tbody- e -tfoot- all interno di unsa tabella?
 Servono a dividere la tabella in sezioni logiche per renderla più leggibile sia per chi scrive il codice sia per il browser.
-<thead> contiene l'intestazione della tabella.
-<tbody> corpo centrale con i dati effettivi  della tabella.
-<tfoot> contiene il Piè di pagina della tabella.
+-thead- contiene l'intestazione della tabella.
+-tbody- corpo centrale con i dati effettivi  della tabella.
+-tfoot- contiene il Piè di pagina della tabella.
 
-Qual'è la differenza tra <th> e <td>?
-<th> cella di intestazione
-<td> cella di dati standard 
+Qual'è la differenza tra -th- e -td-?
+-th- cella di intestazione
+-td- cella di dati standard 
 
 Che cosa sono gli attributi HTML e dove vengono inseriti?
 Gli attributi HTML forniscono informazioni aggiuntive agli elementi. Vengono sempre inseriti nei tag di apertura sotto forma di coppia. 
-Tipo <a href>
+Tipo "a href"
 
 Qual è la differnza tra "id" e "class" 
 Possono essere usati su più elementi?

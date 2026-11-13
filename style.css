@@ -1,0 +1,319 @@
+<<<<<<< HEAD
+
+
+/* IMPOSTAZIONI GENERALI */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eaf3ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* INTESTAZIONE */
+header {
+    background: linear-gradient(135deg, #e63946, #ff7b54);
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* CONTENUTO PRINCIPALE */
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px;
+}
+
+/* FOTO E STORIA AFFIANCATE */
+.introduzione {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.introduzione img {
+    width: 45%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+}
+
+.storia {
+    flex: 1;
+}
+
+/* TITOLI */
+h2 {
+    color: #e63946;
+    border-bottom: 2px solid #ffd166;
+    padding-bottom: 8px;
+}
+
+/* SEZIONI */
+section {
+    background-color: white;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* LISTE */
+li {
+    margin-bottom: 10px;
+}
+
+/* TABELLA */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #e63946;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #fff0ed;
+}
+
+/* MODULO CONTATTI */
+form {
+    max-width: 450px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: #e63946;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #b91d2b;
+}
+
+/* FOOTER */
+footer {
+    background-color: #e63946;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* VISUALIZZAZIONE SU TELEFONO */
+@media (max-width: 650px) {
+    .introduzione {
+        flex-direction: column;
+    }
+
+    .introduzione img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+=======
+
+
+/* IMPOSTAZIONI GENERALI */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eaf3ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* INTESTAZIONE */
+header {
+    background: linear-gradient(135deg, #e63946, #ff7b54);
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* CONTENUTO PRINCIPALE */
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px;
+}
+
+/* FOTO E STORIA AFFIANCATE */
+.introduzione {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.introduzione img {
+    width: 45%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+}
+
+.storia {
+    flex: 1;
+}
+
+/* TITOLI */
+h2 {
+    color: #e63946;
+    border-bottom: 2px solid #ffd166;
+    padding-bottom: 8px;
+}
+
+/* SEZIONI */
+section {
+    background-color: white;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* LISTE */
+li {
+    margin-bottom: 10px;
+}
+
+/* TABELLA */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #e63946;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #fff0ed;
+}
+
+/* MODULO CONTATTI */
+form {
+    max-width: 450px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: #e63946;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #b91d2b;
+}
+
+/* FOOTER */
+footer {
+    background-color: #e63946;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* VISUALIZZAZIONE SU TELEFONO */
+@media (max-width: 650px) {
+    .introduzione {
+        flex-direction: column;
+    }
+
+    .introduzione img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+>>>>>>> 2abdd045a2e1d707a21a6280011344325f31bc79
